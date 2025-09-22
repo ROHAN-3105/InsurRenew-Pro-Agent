@@ -17,5 +17,6 @@
 * [cite_start]**Functional API Integration:** The agent is connected to mock Payment and Notification APIs, with a live webhook demonstrating the successful execution of these functional tasks[cite: 6, 54].
 
 ## 🛠️ Technology Stack
-* **AI Platform:** inyo.ai
+* **AI Platform:** inya.ai
+
 * **Integrations:** Custom REST APIs (mocked), Slack Incoming Webhooks
