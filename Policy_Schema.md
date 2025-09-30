@@ -1,7 +1,7 @@
 ```json
 {
-"customer_name": "Riya Sharma",
-"customer_contact": "+919000000000",
+"customer_name": "Rohan",
+"customer_contact": "+918356995473",
 "policy_number": "AB123456789",
 "policy_type": "Motor Comprehensive",
 "insurer_name": "Sample Insurance Co.",
@@ -12,7 +12,7 @@
 "registration_number": "KA01AB1234"
 },
 "coverage_summary": ["OD", "Third Party", "PA cover"],
-"expiry_date": "2025-10-15",
+"expiry_date": "2025-10-30",
 "premium_amount": 12999,
 "no_claim_bonus_percent": 25,
 "last_payment_date": "2024-10-10",
