@@ -1,0 +1,40 @@
+| Variable | Description |
+| :--- | :--- |
+| customer_name | The customer's full name. |
+
+
+| customer_contact | The customer's mobile number. |
+
+
+| policy_number | The unique policy identifier. |
+
+
+| policy_type| The name of the insurance product. |
+
+
+| insurer_name | Your company's official name. |
+
+
+| expiry_date | The policy's expiration date. |
+
+
+| no_claim_bonus_percent | The No Claim Bonus value. |
+
+
+| premium_amount | The renewal cost. |
+
+
+| coverage_summary | A concise list of the main policy benefits. |
+
+
+| asset_details | An object containing details of the insured asset. |
+
+
+| eligible_upsell | The name of the add-on being offered. |
+
+
+| upsell_premium_amount | The new total premium after the upsell is added. |
+
+
+| callback_date | The date requested for a callback. |
+
