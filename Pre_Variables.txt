@@ -1,29 +1,24 @@
-| Variable | Description |
-| :--- | :--- |
-| customer_name | The customer's full name. |
+| Variable               | Value                                                                                                 | Description                                 |
+|------------------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| customer_name          | **Rohan**                                                                                            | The customer's full name.                   |
+| customer_contact       | **8356995473**                                                                                        | The customer's mobile number.               |
+| policy_number          | **AB123456789**                                                                                       | The unique policy identifier.               |
+| policy_type            | **Motor Comprehensive**                                                                               | The name of the insurance product.          |
+| insurer_name           | **Sample Insurance Co.**                                                                              | Your company's official name.               |
+| expiry_date            | **October 30, 2025**                                                                                  | The policy's expiration date.               |
+| no_claim_bonus_percent | **25%**                                                                                               | The No Claim Bonus value.                   |
+| premium_amount         | **₹12,999**                                                                                           | The renewal cost.                           |
+| coverage_summary       | **Damage to your vehicle, third-party liability, and personal accident cover**                         | Main policy benefits.                       |
+| asset_details          | *Not specified*                                                                                       | Details of the insured asset.               |
+| eligible_upsell        | **Zero Depreciation**                                                                                 | The name of the add-on being offered.       |
+| upsell_premium_amount  | **₹14,499**                                                                                           | New total premium after upsell.             |
+| callback_date          | **October 3rd**                                                                                       | Date requested for a callback.              |
 
-
-| customer_contact | The customer's mobile number. |
-
-
-| policy_number | The unique policy identifier. |
-
-
-| policy_type| The name of the insurance product. |
-
-
-| insurer_name | Your company's official name. |
-
-
-| expiry_date | The policy's expiration date. |
-
-
-| no_claim_bonus_percent | The No Claim Bonus value. |
-
-
-| premium_amount | The renewal cost. |
-
-
+```
+**Note:**  
+- Values have been bolded for emphasis and easy reading.  
+- Descriptions have been condensed for clarity.  
+- The field `asset_details` was not provided and marked as *Not specified*; please update if needed.
 | coverage_summary | A concise list of the main policy benefits. |
 
 
