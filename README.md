@@ -2,7 +2,7 @@
 
 **AI-Powered Insurance Renewal & Upsell Agent**
 > Automate insurance policy renewals with intelligent, consultative AI that speaks your customers' language—literally.
-
+> The API values used in the README file are for sample use only . 
 ---
 
 ## 📋 Table of Contents
@@ -10,17 +10,17 @@
 - [Demo](#-demo)
 - [Overview](#-overview)
 - [Features](#-features)
-- [Architecture](#%EF%B8%8F-architecture)
+- [Architecture](architecture)
 - [Technology Stack](#-technology-stack)
 - [Prerequisites](#-prerequisites)
-- [Configuration](#%EF%B8%8F-configuration)
+- [Configuration](configuration)
 - [Usage](#-usage)
 - [API Reference](#-api-reference)
 - [Data Schema](#-data-schema)
 - [Conversation Examples](#-conversation-examples)
 - [Performance Metrics](#-performance-metrics)
 - [Troubleshooting](#-troubleshooting)
-- [Roadmap](#%EF%B8%8F-roadmap)
+- [Roadmap](-roadmap)
 - [Contributing](#-contributing)
 
 ---
@@ -118,7 +118,7 @@ InsurRenew Pro is an advanced AI agent that:
 │     InsurRenew Pro Agent            │
 │  ┌──────────────────────────────┐   │
 │  │   Conversation Engine        │   │
-│  │  (inyo.ai Platform)          │   │
+│  │  (inya.ai Platform)          │   │
 │  └──────────────────────────────┘   │
 │  ┌──────────┐  ┌──────────────┐    │
 │  │  System  │  │   Actions    │    │
@@ -163,7 +163,7 @@ InsurRenew Pro is an advanced AI agent that:
 
 | Component | Purpose | Technology |
 |-----------|---------|------------|
-| **Conversation Engine** | Manages dialogue state, intent recognition | inyo.ai Platform |
+| **Conversation Engine** | Manages dialogue state, intent recognition | inya.ai Platform |
 | **System Prompt** | Defines agent personality, rules, constraints | Custom prompt engineering |
 | **Actions** | Executable skills (send SMS, parse doc, escalate) | JavaScript functions |
 | **Policy APIs** | Extract data, initiate payments | REST APIs (mock/real) |
@@ -175,7 +175,7 @@ InsurRenew Pro is an advanced AI agent that:
 
 | Layer | Technology | Version | Purpose |
 |-------|-----------|---------|---------|
-| **AI Platform** | inyo.ai | Latest | Conversation orchestration |
+| **AI Platform** | inya.ai | Latest | Conversation orchestration |
 | **SMS Gateway** | Twilio | API v2010-04-01 | Send payment links |
 | **Messaging** | Slack | Webhooks API | Agent escalation |
 | **Language** | JavaScript/Node.js | 18.x+ | Action implementation |
@@ -189,7 +189,7 @@ InsurRenew Pro is an advanced AI agent that:
 Before setting up InsurRenew Pro, ensure you have:
 
 ### Required Accounts
-- [x] **inyo.ai account** with API access ([Sign up](https://inyo.ai))
+- [x] **inya.ai account** with API access ([Sign up](https://inya.ai))
 - [x] **Twilio account** ([Get started](https://www.twilio.com/try-twilio))
   - Account SID
   - Auth Token
@@ -232,9 +232,9 @@ cp .env.example .env
 
 Edit `.env` with your credentials (see [Configuration](#%EF%B8%8F-configuration) section).
 
-### Step 4: Set Up inyo.ai Agent
+### Step 4: Set Up inya.ai Agent
 
-1. Log in to your inyo.ai dashboard
+1. Log in to your inya.ai dashboard
 2. Create a new agent project
 3. Import the system prompt from `config/system-prompt.txt`
 4. Configure actions from the `actions/` directory
@@ -393,14 +393,14 @@ Authorization: Bearer {API_KEY}
 {
   "policy_number": "AB123456789",
   "amount": 14499,
-  "return_url": "https://yourcompany.com/payment-success"
+  "return_url": "https://yourcompany.com/payment-success/sample"
 }
 ```
 
 **Response (200 OK):**
 ```json
 {
-  "payment_link": "https://payments.example.com/pay/abc123xyz",
+  "payment_link": "https://payments.example.com/pay/sample",
   "transaction_id": "TXN1234567890",
   "expires_at": "2025-10-01T23:59:59Z"
 }
@@ -461,7 +461,7 @@ POST https://hooks.slack.com/services/YOUR/WEBHOOK/URL
 Content-Type: application/json
 
 {
-  "text": "🚨 Human agent requested!\n\n*Customer:* Riya Sharma\n*Policy:* AB123456789\n*Language:* Hindi\n*Reason:* Price concern\n\n[View Conversation](https://dashboard.inyo.ai/conv/123)"
+  "text": "🚨 Human agent requested!\n\n*Customer:* Riya Sharma\n*Policy:* AB123456789\n*Language:* Hindi\n*Reason:* Price concern\n\n[View Conversation](https://dashboard.inya.ai/conv/sample)"
 }
 ```
 
@@ -757,7 +757,7 @@ Sentiment: Negative (High Priority)
 **Symptoms:** No response from agent after initiation
 
 **Possible Causes:**
-- inyo.ai agent not deployed
+- inya.ai agent not deployed
 - Network connectivity issues
 
 **Solutions:**
@@ -766,7 +766,7 @@ Sentiment: Negative (High Priority)
 npm run check:agent-status
 
 # Test network connectivity
-ping api.inyo.ai
+ping api.inya.ai
 ```
 
 ---
