@@ -1,6 +1,7 @@
+
 | Variable               | Value                                                                                                 | Description                                 |
 |------------------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------|
-| customer_name          | **Rohan**                                                                                            | The customer's full name.                   |
+| customer_name          | **Rohan**                                                                                             | The customer's full name.                   |
 | customer_contact       | **8356995473**                                                                                        | The customer's mobile number.               |
 | policy_number          | **AB123456789**                                                                                       | The unique policy identifier.               |
 | policy_type            | **Motor Comprehensive**                                                                               | The name of the insurance product.          |
@@ -8,11 +9,12 @@
 | expiry_date            | **October 30, 2025**                                                                                  | The policy's expiration date.               |
 | no_claim_bonus_percent | **25%**                                                                                               | The No Claim Bonus value.                   |
 | premium_amount         | **₹12,999**                                                                                           | The renewal cost.                           |
-| coverage_summary       | **Damage to your vehicle, third-party liability, and personal accident cover**                         | Main policy benefits.                       |
+| coverage_summary       | **Damage to your vehicle, third-party liability, and personal accident cover**                        | Main policy benefits.                       |
 | asset_details          | *Not specified*                                                                                       | Details of the insured asset.               |
 | eligible_upsell        | **Zero Depreciation**                                                                                 | The name of the add-on being offered.       |
 | upsell_premium_amount  | **₹14,499**                                                                                           | New total premium after upsell.             |
 | callback_date          | **October 3rd**                                                                                       | Date requested for a callback.              |
+| data_error             | **None**												                                                                       |Flag for data validation errors              |
 
 ```
 **Note:**  
