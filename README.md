@@ -871,6 +871,7 @@ npm start -- --debug
 - [ ] Personalized upsell recommendations via ML
 - [ ] Email campaign automation
 - [ ] Mobile app integration
+- [ ] Clerk Api Integration
 
 ### Community Requests
 - Regional language support (many language support)
