@@ -1,149 +1,163 @@
-🚀 InsurRenew Pro
-> **AI-Powered Bilingual Insurance Renewal Assistant**
->
-> Built during the **InyaAI BuildWithInya Hackathon** to simplify
-> insurance renewals using Agentic AI.
----
-🔗 Quick Links
-🎥 Demo
-> **Add your demo video here**
-    https://YOUR_DEMO_LINK
+# 🚀 InsurRenew Pro Agent
 
-💼 LinkedIn Hackathon Post
+> AI-powered Insurance Renewal Assistant built for the **InyaAI BuildWithInya Hackathon**.
+
+---
+
+# 🔗 Project Links
+
+## 🎥 Demo Video
+
+**Demo Link:**
+
+> Add your demo video here
+
+```
+https://YOUR_DEMO_LINK
+```
+
+---
+
+## 💼 LinkedIn Hackathon Post
+
 https://www.linkedin.com/feed/update/urn:li:activity:7385576097750355968/
-💻 GitHub Repository
-    https://github.com/yourusername/insurrenew-pro
 
 ---
-📖 Overview
-InsurRenew Pro is an AI-powered conversational insurance assistant that
-automates policy renewals through natural voice and chat interactions.
-Instead of waiting on IVR menus or customer support calls, users can
-renew policies, receive payment links, verify policy details, and
-discover better coverage options through a human-like AI assistant.
-The assistant supports both English and Hindi, making insurance
-services more accessible to a wider audience.
----
-🏆 Hackathon
-Event: InyaAI BuildWithInya Hackathon
-Theme: AI for Insurance Customer Experience
----
-✨ Features
-Voice-first AI Assistant
-English & Hindi Support
-Policy Renewal
-Policy Verification
-Premium Reminder
-Coverage Upgrade Suggestions
-Payment Link Generation
-Human Agent Escalation
-Slack Notifications
-Twilio SMS Integration
-Callback Scheduling
-Multi-intent Conversations
----
-🏗 Architecture
-Customer
-↓
-InsurRenew Pro AI Agent
-↓
-Conversation Engine
-↓
-Policy APIs • Payment APIs • Twilio • Slack
----
-📸 Screenshots
-Dashboard
-Add screenshot here
-Conversation
-Add screenshot here
-Workflow
-Add screenshot here
-Slack Notification
-Add screenshot here
----
-🛠 Tech Stack
-InyaAI
-JavaScript / Node.js
-REST APIs
-Twilio
-Slack Webhooks
-Render
----
-📂 Project Structure
-``` text
-InsurRenew-Pro/
-├── actions/
-├── config/
-├── integrations/
-├── prompts/
-├── docs/
-├── tests/
-├── package.json
-└── README.md
-```
----
-🚀 Installation
-``` bash
-git clone https://github.com/yourusername/insurrenew-pro.git
 
-cd insurrenew-pro
+## 💻 GitHub Repository
 
-npm install
+Add your repository link here.
+
+---
+
+# 📖 About the Project
+
+InsurRenew Pro Agent is an AI-powered insurance renewal assistant designed to simplify the policy renewal experience through natural conversations.
+
+Instead of waiting on long customer support calls or navigating complex IVR menus, users can interact with the AI agent using voice or chat to renew policies, verify policy details, receive payment links, and explore better insurance coverage options.
+
+The assistant understands customer intent, responds naturally, and guides users through the complete renewal process while providing a smooth customer experience.
+
+The project was built during the **InyaAI BuildWithInya Hackathon** to demonstrate how conversational AI can improve customer engagement and automate insurance renewal workflows.
+
+---
+
+# 🎯 Features
+
+- Voice-based insurance assistance
+- Chat-based policy renewal
+- English language support
+- Hindi language support
+- Policy verification
+- Premium reminders
+- Coverage upgrade suggestions
+- Secure customer authentication
+- Payment link generation
+- Human agent escalation
+- Multi-intent conversations
+- Callback scheduling
+
+---
+
+# ⚙️ Project Workflow
+
+1. Customer starts a conversation with the AI agent.
+2. The agent verifies customer identity.
+3. Policy details are retrieved.
+4. The agent explains the renewal information.
+5. If eligible, better coverage options are suggested.
+6. Payment link is generated and shared.
+7. If required, the conversation is transferred to a human agent.
+8. Analytics are recorded for future improvements.
+
+---
+
+# 🛠 Technologies Used
+
+- InyaAI Agent Platform
+- Conversational AI
+- Voice AI
+- Clerk Authentication
+- Payment APIs
+- Policy Verification APIs
+- Render (Deployment)
+
+---
+
+# 💡 Project Highlights
+
+### Intelligent Conversations
+
+The AI understands customer queries and provides accurate responses throughout the renewal process.
+
+### Bilingual Support
+
+Supports both English and Hindi to improve accessibility for a wider audience.
+
+### Faster Renewals
+
+Customers can complete insurance renewals within minutes without waiting for customer support.
+
+### Smart Recommendations
+
+Suggests better insurance plans and coverage upgrades whenever applicable.
+
+### Human Escalation
+
+If the AI cannot resolve a query, the conversation is smoothly handed over to a human representative.
+
+---
+
+# 📸 Demo
+
+### Demo Video
+
+Add your video here.
+
+---
+
+### Screenshots
+
+Add screenshots of:
+
+- Home Screen
+- Voice Conversation
+- Policy Renewal
+- Payment Flow
+- Human Escalation
+
+---
+
+# 🌟 Why We Built This
+
+Insurance renewal is often time-consuming and frustrating due to long wait times, complex IVR systems, and delayed customer support.
+
+InsurRenew Pro Agent aims to make the renewal process simple, conversational, and accessible by allowing customers to complete renewals naturally through AI-powered interactions.
+
+The solution reduces manual effort for insurance companies while improving customer satisfaction through intelligent automation.
+
+---
+
+# 🚀 Future Improvements
+
+- WhatsApp Integration
+- Email Notifications
+- Additional Indian Language Support
+- OCR-based Policy Reading
+- More Insurance Products
+- Advanced AI Recommendations
+- CRM Integration
+
+---
+
+# ❤️ Built During
+
+**InyaAI BuildWithInya Hackathon**
+
+Team:
+- PV Rohan
+- Oaj Borwankar
+
 ```
----
-⚙ Configuration
-Create a `.env` file.
-Add:
-Twilio SID
-Twilio Token
-Slack Webhook
-API Keys
----
-💻 Usage
-``` bash
-npm start
-```
-or
-``` bash
-npm run dev
-```
----
-📡 API Features
-Policy Parsing
-Payment Link Generation
-SMS Notification
-Slack Escalation
-Callback Scheduling
----
-💬 Demo Scenarios
-✅ Policy Renewal
-✅ Hindi Conversation
-✅ English Conversation
-✅ Coverage Upgrade
-✅ Payment Link
-✅ Human Agent Escalation
----
-🧪 Testing
-``` bash
-npm test
-```
-Test cases include:
-Renewal Flow
-Hindi Switching
-Upsell
-Angry Customer
-Callback Request
-API Failure
-SMS Failure
----
-🚀 Future Scope
-WhatsApp Integration
-OCR-based Policy Upload
-CRM Integration
-Multi-language Support
-AI-based Recommendations
-Email Notifications
-Predictive Analytics
----
-⭐ If you like this project, consider giving it a star on GitHub.
-Made with ❤️ during the InyaAI BuildWithInya Hackathon
+
+This version is much more like a real hackathon GitHub README: it doesn't invent a tech stack or setup that wasn't part of your project, keeps the focus on what the agent does, and provides clear places for your demo, LinkedIn post, screenshots, and repository link.
