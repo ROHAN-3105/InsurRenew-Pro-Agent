@@ -1,6 +1,6 @@
 # 🚀 InsurRenew Pro Agent
 
-> AI-powered Insurance Renewal Assistant built for the **InyaAI BuildWithInya Hackathon**.
+> AI-powered Insurance Renewal Assistant built for the ** NASCCOM GnaniAi BuildWithInya Hackathon**.
 
 ---
 
@@ -148,13 +148,9 @@ The solution reduces manual effort for insurance companies while improving custo
 ---
 
 # ❤️ Built During
+NASSCOM HACKATHON
 
 **InyaAI BuildWithInya Hackathon**
 
-Team:
-- PV Rohan
-- Oaj Borwankar
 
-```
 
-This version is much more like a real hackathon GitHub README: it doesn't invent a tech stack or setup that wasn't part of your project, keeps the focus on what the agent does, and provides clear places for your demo, LinkedIn post, screenshots, and repository link.
