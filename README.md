@@ -8,13 +8,10 @@
 
 ## 🎥 Demo Video
 
-**Demo Link:**
-
-
-```
+**Demo Link
 https://drive.google.com/drive/folders/13I_N7xkdE-52tQxV0KrA_lEu_IzbsOiT
 
-```
+
 
 ---
 
